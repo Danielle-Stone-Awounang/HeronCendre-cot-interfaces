@@ -1,0 +1,72 @@
+.div-cache{
+    width: 100%;
+    height: 70px;
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.534);
+    display: flex;
+    transition: all 0.4s ease-in-out;
+    height: 250px;
+}
+.box:hover{
+    box-shadow: 0 0 10px;
+    transform: translate(2px,-2px);
+}
+
+.box-child{
+    width: 50%;
+    padding: 5px;
+    position: relative;
+}
+.titre{
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Inspiration', cursive;
+}
+.btn-inscrire{
+    width: 70px;
+    border: 1px solid black;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+}
+.photo{
+    width: 50%;
+    height: 100%;
+    transition: all 0.3s ease-in;
+}
+.photo:hover{
+    transform: rotate(-2deg);
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* css de la page des prestations  */
+.description-prestation .titre{
+    margin-bottom: 0;
+}
+.description-prestation p{
+    margin: 10px;
+}
+.description-prestation .tarif,.description-activite .tarif{
+    margin-top: 0;
+}
+.description-prestation a .btn-inscrire{
+    bottom: 10%;
+}
